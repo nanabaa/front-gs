@@ -46,7 +46,7 @@ body{
     min-height: 90dvh;
     & h1{
         color: #F4F4F4;
-        font-size: 50;
+        font-size: 7rem;
         font-weight: 300;
         margin-left: 15rem;
     }
