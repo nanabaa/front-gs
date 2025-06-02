@@ -137,3 +137,9 @@ a{
         text-align:justify;
     }
 }
+
+@media(width <=920px) {
+    .solucao{
+        width: 50%;
+    }
+}

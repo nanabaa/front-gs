@@ -228,14 +228,14 @@ a {
 @media(width <=920px) {
     .text-parceria {
         width: 70%;
-
         & p {
             font-size: 2rem;
         }
     }
 
-    .parceria img {
+    .imagens {
         margin-bottom: 5rem;
+        margin-top: 5rem;
     }
 
     .card {
