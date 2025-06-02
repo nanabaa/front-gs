@@ -31,7 +31,7 @@ body{
 }
 
 .hero{
-    background-image: var(--linear-gradient), url(../img/banner2.jpg);
+    background-image: var(--linear-gradient), url(../img/banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 
@@ -115,55 +115,25 @@ a{
     }
 }
 
-.problema{
-    width: 100%;
-    min-height: 50dvh;
-    text-align:justify;
-    padding: 10rem;
-    & h1{
-        font-size: 3.2rem;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-    }
-    & p{
-        font-size: 2.4rem;
-    }
-}
 
 .solucao{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     min-height: 50dvh;
-    text-align:justify;
-    margin-left: 10rem;
     margin-bottom: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
     gap:20rem;
     & h1{
         font-size: 3.2rem;
         margin-top: 5rem;
         margin-bottom: 5rem;
+        text-align: center;
     }
     & p{
         font-size: 2.4rem;
-        
+        text-align:justify;
     }
-}
-
-.prototipo{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
-    gap:1rem;
-    & a{
-        color: #000742;
-    }
-}
-
-.misera{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
 }
